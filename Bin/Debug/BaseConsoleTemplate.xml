@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="360,600" mininfo="200,360">
+    <Font name="华文隶书" size="19" bold="false" italic="false" />
+    <Font name="微软雅黑" size="13" bold="false" italic="false" />
+    <Font name="黑体" size="21" bold="true" italic="false" />
+    <Font name="微软雅黑" size="21" bold="false" italic="false" />
+    <VerticalLayout bkcolor="#FFF0F0F0" bkcolor2="#00F0F0F0" inset="10,6,10,6">
+        <Button name="Button_Close" text="×" float="true" pos="320,2,0,0" width="38" height="18" bkcolor="#FFFFE9E9" bkcolor2="#00FFE9FF" bordercolor="#0057C0FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+        <Label name="Label_Title" text="  FK基本控制台 V 1.0.0" tooltip="copyright @ by freeknight 2017" float="true" pos="23,2,0,0" width="259" height="18" bkcolor="#FFA0FFFF" bkcolor2="#00E9FFFF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="leftvcenter" />
+        <Control name="App_Icon" float="true" pos="2,2,0,0" width="18" height="18" bkimage="Res\AppIcon.jpg" />
+        <Button name="Button_Smallest" text="-" float="true" pos="288,2,0,0" width="28" height="18" bkcolor="#FFFFE9E9" bkcolor2="#00FFE9FF" bordercolor="#0057C0FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+        <RichEdit name="RichEdit_Infos" bordersize="1" float="true" pos="3,24,0,0" width="354" height="540" bkcolor="#FFE9FFE9" hscrollbar="true" vscrollbar="true" multiline="true" autovscroll="true" rich="true" />
+        <Edit name="Edit_CmdLine" maxwidth="64" bordersize="2" float="true" pos="1,566,0,0" width="277" height="32" bkcolor="#FF3C3C3C" bkcolor2="#003C3C3C" bordercolor="#00000080" textpadding="2,0,2,0" textcolor="#00E9FFE9" disabledtextcolor="#FFA7A6AA" font="3" />
+        <Button name="Button_RunCmd" text="GO" bordersize="1" float="true" pos="283,566,0,0" width="74" height="30" bkcolor="#FFFF0000" bordercolor="#00FFFF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+    </VerticalLayout>
+</Window>
